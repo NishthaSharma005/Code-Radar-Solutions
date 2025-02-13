@@ -3,14 +3,14 @@ int main()
 {
     char ch;
     scanf("%c",&ch);
-    if(ch=="A" || ch=="E" || ch=="I" || ch=="O" || ch=="U" || ch=="a" || ch=="e" || ch=="i" ||
-    ch=="o" || ch=="u"){
+    if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' || ch=='a' || ch=='e' || ch=='i' ||
+    ch=='o' || ch=='u'){
         printf("Vowel");
     }
     else if(ch>='a' && ch<='z' || ch>='A' && ch<='Z'){
         printf("consonant");
     }
-    else if(ch>="0" && ch<="9"){
+    else if(ch>='0' && ch<='9'){
         printf("Digit");
     }
     else{
