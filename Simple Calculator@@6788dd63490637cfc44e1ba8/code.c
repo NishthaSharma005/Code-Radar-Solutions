@@ -6,17 +6,17 @@ int main()
     scanf("%d %d %c",&x,&y,&op);
     switch(op){
         case '+':
-            printf("%d\n",x+y);
+            printf("%d",x+y);
             break;
         case '-':
             printf("%d",x-y);
             break;
         case '*':
-            printf("%d\n",x*y);
+            printf("%d",x*y);
             break;
         case '/':
             if(y!=0){
-            printf("%d\n",x/y);
+            printf("%d",x/y);
             }
             else{
                 printf("error");
