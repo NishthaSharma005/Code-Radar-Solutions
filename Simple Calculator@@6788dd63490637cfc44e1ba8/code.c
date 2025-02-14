@@ -14,7 +14,7 @@ int main()
         case '/':
             printf("%d",x/y);
         default:
-            printf("Error")
+            printf("Error");
     }
     return 0;
 }
