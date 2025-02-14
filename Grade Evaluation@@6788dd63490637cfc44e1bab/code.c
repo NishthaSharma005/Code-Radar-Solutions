@@ -13,10 +13,10 @@ int main()
         case 'C':
             printf("Average");
             break;
-        case 'D'
+        case 'D':
             printf("Below Average");
             break;
-        case 'E'
+        case 'E':
             printf("Fail");
             break;
     }
