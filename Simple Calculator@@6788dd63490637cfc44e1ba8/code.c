@@ -2,9 +2,9 @@
 int main()
 {
     float x,y;
-    char o;
-    scanf("%f %f %c",&x,&y,&o);
-    switch(o){
+    char op;
+    scanf("%f %f %c",&x,&y,&op);
+    switch(op){
         case '+':
             printf("%f\n",x+y);
             break;
