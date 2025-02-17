@@ -12,10 +12,9 @@ int main()
                 printf("Not Prime");
                 break;
             }
-            else{
-                printf("Prime");
-                break;
+           
             }
+            printf("Prime");
         }
     }
     return 0;
