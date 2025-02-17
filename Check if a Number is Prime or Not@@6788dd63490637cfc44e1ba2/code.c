@@ -12,8 +12,6 @@ int main()
                 printf("Not Prime");
                 break;
             }
-           
-            }
             printf("Prime");
         }
     }
