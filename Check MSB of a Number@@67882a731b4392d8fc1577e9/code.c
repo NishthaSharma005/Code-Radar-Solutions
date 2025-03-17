@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int x;
+    int x,a;
     scanf("%d",&x);
-    if(x & 0*80000000){
+    a=x>>31
+    if(a & 1){
         printf("Set");
     }
     else{
