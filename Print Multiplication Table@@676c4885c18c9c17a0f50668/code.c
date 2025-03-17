@@ -7,6 +7,6 @@ int main()
             printf("%d X %d = %d\n",n,i,n*i);
 
         }  
-    }
+    
     return 0;
 }
